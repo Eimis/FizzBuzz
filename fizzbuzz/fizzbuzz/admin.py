@@ -7,7 +7,7 @@ class DivisorAdmin(admin.ModelAdmin):
 
 
 class GeneratorAdmin(admin.ModelAdmin):
-    pass
+    readonly_fields = ('hash_for_url', )
 
 
 class StringAdmin(admin.ModelAdmin):
