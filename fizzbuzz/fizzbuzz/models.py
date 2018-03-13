@@ -32,7 +32,7 @@ class Generator(models.Model):
     def save(self, *args, **kwargs):
 
         if not self.hash_for_url:
-            ''.join(
+            self.hash_for_url = ''.join(
                 random.choice(string.ascii_letters) for m in range(HASH_LENGTH)
             )
 
