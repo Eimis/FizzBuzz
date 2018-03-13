@@ -44,11 +44,11 @@ class Divisor(models.Model):
     generator = models.ForeignKey(Generator)
 
     def __unicode__(self):
-        return self.number
+        return str(self.number)
 
 
 class String(models.Model):
-    string_to_append = models.IntegerField()
+    string_to_append = models.CharField(max_length=10)
     generator = models.ForeignKey(Generator)
 
     def __unicode__(self):
