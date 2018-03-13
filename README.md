@@ -16,4 +16,13 @@ Setup:
 * run `cd fizzbuzz/ && ./manage.py migrate` to run migrations
 * `./manage.py runserver`
 * `./manage.py createsuperuser`
-* Visit http://localhost:8000/
+
+* Visit http://localhost:8000/admin
+* Create a basic Generator
+* Create one or more Divisors for your fresh Generator. All of them will be used
+  when generating string sequence using this Generator
+* Create one or more Strings for your fresh Generator. All of them will be used
+  when generating string sequence using this Generator
+
+* Every generator displays its url in Django admin change form, so visit this
+  url in order to use the Generator
