@@ -22,7 +22,8 @@ class Generator(models.Model):
         max_length=HASH_LENGTH,
         help_text=_(
             'This field will be generated automatically when saving the '
-            'Generator'
+            'Generator. The URL will be: '
+            'http://localhost:8000/generator/<hash_for_url>'
         )
     )
 
