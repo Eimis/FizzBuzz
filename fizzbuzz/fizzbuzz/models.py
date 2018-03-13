@@ -23,7 +23,7 @@ class Generator(models.Model):
         help_text=_(
             'This field will be generated automatically when saving the '
             'Generator. The URL will be: '
-            'http://localhost:8000/generator/<hash_for_url>'
+            'http://localhost:8000/generator/HASH'
         )
     )
 
