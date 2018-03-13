@@ -15,4 +15,5 @@ Setup:
 * run `pip install -r requirements.txt` to install backend dependencies
 * run `cd fizzbuzz/ && ./manage.py migrate` to run migrations
 * `./manage.py runserver`
+* `./manage.py createsuperuser`
 * Visit http://localhost:8000/
