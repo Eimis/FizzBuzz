@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # local apps:
     'fizzbuzz',
+
+    # 3ed party dependencies:
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
